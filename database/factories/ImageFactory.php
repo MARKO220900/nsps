@@ -19,7 +19,7 @@ class ImageFactory extends Factory
         $faker = \Faker\Factory::create();
         $faker->addProvider(new \Smknstd\FakerPicsumImages\FakerPicsumImagesProvider($faker));
         return [
-            'url' => 'public/books/' . $this->faker->image('public/storage/books', 640, 480, null, false)
+            'url' => 'public/books/'
         ];
     }
 }

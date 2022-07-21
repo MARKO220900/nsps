@@ -19,7 +19,7 @@ class CategoryFactory extends Factory
         $faker = \Faker\Factory::create();
         $faker->addProvider(new \Smknstd\FakerPicsumImages\FakerPicsumImagesProvider($faker));
         return [
-            'image' => 'categories/' . $this->faker->image('public/storage/categories', 640, 480, null, false)
+            'image' => 'categories/'
         ];
     }
 }
