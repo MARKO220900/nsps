@@ -18,6 +18,9 @@ class DatabaseSeeder extends Seeder
     {
         Storage::deleteDirectory('/public/books');
         Storage::makeDirectory('/public/books');
+
+        Storage::deleteDirectory('/public/categories');
+        Storage::makeDirectory('/public/categories');
         
         $this->call(UserSeeder::class);
         $this->call(CategorySeeder::class);
