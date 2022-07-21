@@ -12,7 +12,7 @@ class CreateCategory extends Component
 {
     use WithFileUploads;
 
-    public $rand, $categories, $category;
+    public $rand="", $categories, $category;
 
     protected $listeners=['delete'];
 
@@ -50,7 +50,6 @@ class CreateCategory extends Component
     public $editImage;
 
     public function mount(){
-        $this->rand = rand();
         $this->getCategories();
     }
 

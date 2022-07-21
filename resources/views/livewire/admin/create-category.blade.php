@@ -52,7 +52,7 @@
                 <input type="file" 
                     wire:model="createForm.image"
                     accept="image/*" 
-                    class="mt-1" name="" id="{{$rand}}">
+                    class="mt-1" name="" id="{{ $rand }}">
                 <x-jet-input-error for="createForm.image"/>
             </div>
         </x-slot>
@@ -60,7 +60,7 @@
             <x-jet-action-message class="mr-3" on="saved">
                 Categoría creada
             </x-jet-action-message>
-            <x-jet-button>
+            <x-jet-button id="btn-add">
                 Agregar
             </x-jet-button>
         </x-slot>
@@ -180,4 +180,6 @@
         </x-slot>
 
     </x-jet-dialog-modal>
+
 </div>
+

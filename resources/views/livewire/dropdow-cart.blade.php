@@ -42,7 +42,7 @@
             @if (Cart::count())
                 <div class="py-2 px-3">
                     <x-button-enlace href="{{route('cart')}}" class="w-full">
-                        Ir al carrito de Compras
+                        IR AL CARRITO DE LA ORDEN
                     </x-button-enlace>
                 </div>                
             @endif

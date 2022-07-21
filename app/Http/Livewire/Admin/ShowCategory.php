@@ -14,7 +14,7 @@ class ShowCategory extends Component
 
     protected $rules = [
         'createForm.name' => 'required',
-        'createForm.slug' => 'required|unique:subcategories,slug',
+        'createForm.slug' => 'required',
         'createForm.grade' => 'required'
     ];
     protected $validationAttributes =[
