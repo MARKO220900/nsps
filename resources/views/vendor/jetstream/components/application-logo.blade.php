@@ -8,7 +8,7 @@
   <p class="font-black lg:text-2xl md:text:xl sm:text-base mb-2">BIBLIOTECA</p>
   <p class="font-extrabold lg:text-4xl md:text:3xl sm:text-2xl mb-4"> I.E. Nuestra Señora del Perpetuo Socorro</p>
   <a href="/">
-    <center><img src="{{ asset('/storage/logo/logo.png')}}" class="lg:w-24 md:w-24 sm:w-20" ></center>
+    <center><img src="{{ asset('/img/logo.png')}}" class="lg:w-24 md:w-24 sm:w-20" ></center>
   </a>
 </div>
 

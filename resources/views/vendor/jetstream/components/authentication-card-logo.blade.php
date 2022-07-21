@@ -1,3 +1,3 @@
 <figure>
-    <img src="{{ asset('/storage/logo/logo.png')}}" style="width:64px">
+    <img src="{{ asset('/img/logo.png')}}" style="width:64px">
   </figure>
